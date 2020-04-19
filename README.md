@@ -4,10 +4,14 @@ Useful little things I have learned
 
 ### Categories
 - [Docker](#Docker)
-- [Shell](#shell)
+- [Letsencrypt](#Letsencrypt)
+- [Shell](#Shell)
 
 ### Docker
 - [Nginx docker compose directory listing](docker/nginx.md)
+
+### Letsencrypt
+- [DNS ACME Challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
 
 ### Shell
 - [Better Bash tab completion](shell/better-bash-tab-completion.md)
