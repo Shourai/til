@@ -5,7 +5,7 @@ Useful little things I have learned
 ### Categories
 - [Docker](#Docker)
 - [Letsencrypt](#Letsencrypt)
-- [Python][#Python]
+- [Python](#Python)
 - [Shell](#Shell)
 - [Terminal](#Terminal)
 - [Windows](#Windows)
