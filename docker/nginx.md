@@ -24,25 +24,30 @@ nginx.conf
 events {}
 
 http {
+	include /etc/nginx/mime.types;
+
   server {
     server_name your.server.url;
 
     location / {
-        rewrite ^/$ https://some.site;
+    root   /usr/share/nginx/html;
+    index  index.html;
     }
 
     location /log {
-        alias /log;
-        rewrite ^/logs/?$ http://address/log;
-        autoindex on;
-        autoindex_localtime on;
+    alias /log;
+	rewrite ^/logs/?$ http://address/log;
+	autoindex on;
+ 	autoindex_localtime on;
+    charset UTF-8;
     }
 
     location /config {
-        alias /config;
-        rewrite ^/configs/?$ http://address/config;
-        autoindex on;
-        autoindex_localtime on;
+    alias /config;
+	rewrite ^/configs/?$ http://address/config;
+	autoindex on;
+ 	autoindex_localtime on;
+    charset UTF-8;
     }
   }
 }
