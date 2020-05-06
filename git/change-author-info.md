@@ -1,5 +1,4 @@
-https://help.github.com/en/github/using-git/changing-author-info
-https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi/4903673
+# Changing author info
 
 Before running this script, you'll need:
 
@@ -58,3 +57,6 @@ fi
 cd ..
 rm -rf repo.git
 ```
+
+https://help.github.com/en/github/using-git/changing-author-info \
+https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi/4903673
