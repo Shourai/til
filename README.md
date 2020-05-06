@@ -19,6 +19,8 @@ Useful little things I have learned
 
 ### Git
 - [Git Cheatsheet](git/git-cheatsheet.md)
+- [Migrate git host](git/migrate-host.md)
+- [Change author info](git/change-author-info.md)
 
 ### Letsencrypt
 - [DNS ACME Challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
