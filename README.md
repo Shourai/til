@@ -40,6 +40,7 @@ Useful little things I have learned
 
 ### Vim
 - [Vim Cheatsheet](vim/vim-cheatsheet.md)
+- [Format JSON](vim/format-json.md)
 
 ### Windows
 - [Set keyboard repeat rate](windows/keyboard-repeat-rate.md)
