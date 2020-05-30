@@ -44,6 +44,7 @@ Useful little things I have learned
 
 ### Vim
 - [Vim Cheatsheet](vim/vim-cheatsheet.md)
+- [Debug option settings](vim/debug-option-settings.md)
 - [Format JSON](vim/format-json.md)
 
 ### Windows
