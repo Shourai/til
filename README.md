@@ -3,6 +3,7 @@ Useful little things I have learned
 
 
 ### Categories
+- [Caddy](#Caddy)
 - [Docker](#Docker)
 - [Git](#Git)
 - [Letsencrypt](#Letsencrypt)
@@ -12,6 +13,9 @@ Useful little things I have learned
 - [Terminal](#Terminal)
 - [Vim](#Vim)
 - [Windows](#Windows)
+
+### Caddy
+- [Set up a file server with directory index](caddy/file-server.md)
 
 ### Docker
 - [Nginx docker compose directory listing](docker/nginx.md)
