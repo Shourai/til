@@ -11,12 +11,12 @@ The log and config folder is stored under `/usr/share/caddy/log` and `/usr/share
  root * /usr/share/caddy/docs
  file_server browse
 
- rewrite /log /log/
+ redir /log /log/ 301
  route /log/* {
    root * /usr/share/caddy
  }
 
- rewrite /config /config/
+ redir /config /config/ 301
  route /config/* {
    root * /usr/share/caddy
  }
