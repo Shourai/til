@@ -38,6 +38,8 @@ Useful little things I have learned
 ### Shell
 - [Better Bash tab completion](shell/better-bash-tab-completion.md)
 - [Create array of directories](shell/directory-array.md)
+- [Visudo tips](shell/visudo.md)
+- [Send sudo commands over SSH](shell/sudo-over-ssh.md)
 
 ### Terminal
 - [Terminal Colors](terminal/terminal-colors.md)
