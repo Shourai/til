@@ -14,3 +14,9 @@ You do still need to type `sudo reboot`.
 ```
 username ALL=(ALL) NOPASSWD:ALL
 ```
+
+## Open visudo with specific editor
+
+```
+sudo EDITOR=vim visudo
+```
