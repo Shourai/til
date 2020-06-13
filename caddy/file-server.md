@@ -8,15 +8,17 @@ The log and config folder is stored under `/usr/share/caddy/log` and `/usr/share
 
 ```
 :80 {
-  root * /usr/share/caddy/main
-  file_server browse
-  
-route /log/* {
-  root * /usr/share/caddy
-  }
+ root * /usr/share/caddy/docs
+ file_server browse
 
-route /config/* {
-  root * /usr/share/caddy
-  }
+ rewrite /log /log/
+ route /log/* {
+   root * /usr/share/caddy
+ }
+
+ rewrite /config /config/
+ route /config/* {
+   root * /usr/share/caddy
+ }
 }
 ```
