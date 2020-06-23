@@ -49,5 +49,8 @@ Useful little things I have learned
 - [Debug option settings](vim/debug-option-settings.md)
 - [Format JSON](vim/format-json.md)
 
+### Web
+- [Check TXT records](web/check_txt_record.md)
+
 ### Windows
 - [Set keyboard repeat rate](windows/keyboard-repeat-rate.md)
