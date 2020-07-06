@@ -26,4 +26,5 @@ To check the TXT record you can use the `dig` command
 dig -t TXT _acme-challenge.domain.com
 ```
 
-
+see also:
+https://www.digitalocean.com/community/tutorials/how-to-acquire-a-let-s-encrypt-certificate-using-dns-validation-with-acme-dns-certbot-on-ubuntu-18-04
