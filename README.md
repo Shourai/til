@@ -26,6 +26,7 @@ Useful little things I have learned
 - [Migrate git host](git/migrate-host.md)
 - [Change author info](git/change-author-info.md)
 - [Creating patches](git/create-patches.md)
+- [Clear git history](git/clear-git-history.md)
 
 ### Letsencrypt
 - [DNS ACME Challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
