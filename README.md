@@ -41,6 +41,7 @@ Useful little things I have learned
 - [Create array of directories](shell/directory-array.md)
 - [Visudo tips](shell/visudo.md)
 - [Send sudo commands over SSH](shell/sudo-over-ssh.md)
+- [Mount harddrive as user](shell/mount-as-user.md)
 
 ### Terminal
 - [Terminal Colors](terminal/terminal-colors.md)
