@@ -43,6 +43,7 @@ Useful little things I have learned
 - [Visudo tips](shell/visudo.md)
 - [Send sudo commands over SSH](shell/sudo-over-ssh.md)
 - [Mount harddrive as user](shell/mount-as-user.md)
+- [Sweep ping in a subnet](shell/ping-sweep.md)
 
 ### Terminal
 - [Terminal Colors](terminal/terminal-colors.md)
