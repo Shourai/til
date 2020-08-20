@@ -28,6 +28,9 @@ Useful little things I have learned
 - [Creating patches](git/create-patches.md)
 - [Clear git history](git/clear-git-history.md)
 
+### Git
+- [GPG cheatsheet](gpg/gpg-cheatsheet.md)
+
 ### Letsencrypt
 - [DNS ACME Challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
 
