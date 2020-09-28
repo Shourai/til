@@ -1,7 +1,6 @@
 # Notes
 Useful little things I have learned
 
-
 ### Categories
 - [Caddy](#Caddy)
 - [Docker](#Docker)
@@ -27,8 +26,9 @@ Useful little things I have learned
 - [Change author info](git/change-author-info.md)
 - [Creating patches](git/create-patches.md)
 - [Clear git history](git/clear-git-history.md)
+- [Sign old commits with GPG](git/gpg-sign-old-commits.md)
 
-### Git
+### GPG
 - [GPG cheatsheet](gpg/gpg-cheatsheet.md)
 
 ### Letsencrypt
