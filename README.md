@@ -47,6 +47,7 @@ Useful little things I have learned
 - [Send sudo commands over SSH](shell/sudo-over-ssh.md)
 - [Mount harddrive as user](shell/mount-as-user.md)
 - [Sweep ping in a subnet](shell/ping-sweep.md)
+- [Test if DHCP is working](shell/test-dhcp.md)
 
 ### Terminal
 - [Terminal Colors](terminal/terminal-colors.md)
