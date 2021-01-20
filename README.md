@@ -30,6 +30,7 @@ Useful little things I have learned
 
 ### GPG
 - [GPG cheatsheet](gpg/gpg-cheatsheet.md)
+- [GPG agent forwarding](gpg/gpg-agent-forwarding.md)
 
 ### Letsencrypt
 - [DNS ACME Challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
