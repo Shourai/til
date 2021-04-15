@@ -53,6 +53,9 @@ Useful little things I have learned
 ### Terminal
 - [Terminal Colors](terminal/terminal-colors.md)
 
+### Tmux
+- [SSH agent forwarding with tmux](tmux/ssh-agent-forwarding-tmux.md)
+
 ### Vim
 - [Vim Cheatsheet](vim/vim-cheatsheet.md)
 - [Debug option settings](vim/debug-option-settings.md)
