@@ -6,6 +6,7 @@ Useful little things I have learned
 - [Docker](#Docker)
 - [Git](#Git)
 - [Letsencrypt](#Letsencrypt)
+- [Linux](#Linux)
 - [Neomutt](#Neomutt)
 - [Python](#Python)
 - [Shell](#Shell)
@@ -35,6 +36,8 @@ Useful little things I have learned
 ### Letsencrypt
 - [DNS ACME Challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
 
+### Linux
+- [Set up Gnome keyring](linux/keyring.md)
 ### Neomutt
 - [Neomutt Cheatsheet](neomutt/neomutt-cheatsheet.md)
 
