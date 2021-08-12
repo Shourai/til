@@ -38,6 +38,8 @@ Useful little things I have learned
 
 ### Linux
 - [Set up Gnome keyring](linux/keyring.md)
+- [Change defaults with xdg-mime](linux/xdg-mime.md)
+
 ### Neomutt
 - [Neomutt Cheatsheet](neomutt/neomutt-cheatsheet.md)
 
