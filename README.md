@@ -39,6 +39,7 @@ Useful little things I have learned
 ### Linux
 - [Set up Gnome keyring](linux/keyring.md)
 - [Change defaults with xdg-mime](linux/xdg-mime.md)
+- [Using dig and host with systemd-resolved](linux/dig-and-host.md)
 
 ### Neomutt
 - [Neomutt Cheatsheet](neomutt/neomutt-cheatsheet.md)
