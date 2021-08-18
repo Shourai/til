@@ -20,6 +20,7 @@ Useful little things I have learned
 ### Docker
 - [Nginx docker compose directory listing](docker/nginx.md)
 - [Update docker images with docker compose](docker/docker-compose-update-images.md)
+- [Get UFW working with docker](docker/docker-ufw.md)
 
 ### Git
 - [Git Cheatsheet](git/git-cheatsheet.md)
