@@ -67,6 +67,11 @@ COMMIT
 
 
 if we only want to allow for example the range 216.58.213.0/24.
+Using the following command:
+```
+ufw route allow proto tcp from 216.58.213.0/24 port 443
+```
+
 Port 8000 is a docker port and 443 a nginx port.
 
 ```
