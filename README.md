@@ -1,75 +1,92 @@
-# Notes
+# TIL
+> Today I Learned
+
 Useful little things I have learned
 
+
+_33 TILs and counting..._
+
+---
+
 ### Categories
-- [Caddy](#Caddy)
-- [Docker](#Docker)
-- [Git](#Git)
-- [Letsencrypt](#Letsencrypt)
-- [Linux](#Linux)
-- [Neomutt](#Neomutt)
-- [Python](#Python)
-- [Shell](#Shell)
-- [Terminal](#Terminal)
-- [Vim](#Vim)
-- [Windows](#Windows)
 
-### Caddy
-- [Set up a file server with directory index](caddy/file-server.md)
+- [caddy](#caddy)
+- [docker](#docker)
+- [git](#git)
+- [gpg](#gpg)
+- [letsencrypt](#letsencrypt)
+- [linux](#linux)
+- [neomutt](#neomutt)
+- [python](#python)
+- [shell](#shell)
+- [terminal](#terminal)
+- [termux](#termux)
+- [tmux](#tmux)
+- [vim](#vim)
+- [web](#web)
+- [windows](#windows)
 
-### Docker
-- [Nginx docker compose directory listing](docker/nginx.md)
-- [Update docker images with docker compose](docker/docker-compose-update-images.md)
-- [Get UFW working with docker](docker/docker-ufw.md)
+### [caddy](#caddy)
+- [Create a simple fileserver Caddy file](caddy/file-server.md)
 
-### Git
-- [Git Cheatsheet](git/git-cheatsheet.md)
-- [Migrate git host](git/migrate-host.md)
-- [Change author info](git/change-author-info.md)
-- [Creating patches](git/create-patches.md)
-- [Clear git history](git/clear-git-history.md)
-- [Sign old commits with GPG](git/gpg-sign-old-commits.md)
+### [docker](#docker)
+- [Update existing images with docker-compose](docker/docker-compose-update-images.md)
+- [# Firewall rules (UFW)](docker/docker-ufw.md)
+- [Setting up a nginx directory listing with docker compose](docker/nginx.md)
 
-### GPG
-- [GPG cheatsheet](gpg/gpg-cheatsheet.md)
-- [GPG agent forwarding](gpg/gpg-agent-forwarding.md)
+### [git](#git)
+- [Changing author info](git/change-author-info.md)
+- [Clear Git History](git/clear-git-history.md)
+- [Creating patches with git](git/create-patches.md)
+- [Git](git/git-cheatsheet.md)
+- [GPG sign old commits](git/gpg-sign-old-commits.md)
+- [https://medium.com/collaborne-engineering/how-to-migrate-a-private-repository-from-bitbucket-to-github-6cddedd5d73](git/migrate-host.md)
 
-### Letsencrypt
-- [DNS ACME Challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
+### [gpg](#gpg)
+- [GPG agent forwarding over SSH](gpg/gpg-agent-forwarding.md)
+- [A Cheatsheet for common gpg commands](gpg/gpg-cheatsheet.md)
 
-### Linux
-- [Set up Gnome keyring](linux/keyring.md)
-- [Change defaults with xdg-mime](linux/xdg-mime.md)
-- [Using dig and host with systemd-resolved](linux/dig-and-host.md)
+### [letsencrypt](#letsencrypt)
+- [Letsencrypt DNS acme challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
 
-### Neomutt
-- [Neomutt Cheatsheet](neomutt/neomutt-cheatsheet.md)
+### [linux](#linux)
+- [# Systemd-revolved](linux/dig-and-host.md)
+- [* Setup gnome keyring](linux/keyring.md)
+- [Set defaults for extensions](linux/xdg-mime.md)
 
-### Python
-- [Add virtual environment to Jupyter Notebook](python/virtual-environment-in-jupyter-notebook.md)
+### [neomutt](#neomutt)
+- [Neomutt](neomutt/neomutt-cheatsheet.md)
 
-### Shell
-- [Better Bash tab completion](shell/better-bash-tab-completion.md)
-- [Create array of directories](shell/directory-array.md)
-- [Visudo tips](shell/visudo.md)
-- [Send sudo commands over SSH](shell/sudo-over-ssh.md)
-- [Mount harddrive as user](shell/mount-as-user.md)
-- [Sweep ping in a subnet](shell/ping-sweep.md)
+### [python](#python)
+- [Using virtual environment in Jupyter Notebook](python/virtual-environment-in-jupyter-notebook.md)
+
+### [shell](#shell)
+- [make tab cycle through commands after listing](shell/better-bash-tab-completion.md)
+- [Create and populate an array of directories in bash](shell/directory-array.md)
+- [Mount an external harddrive as local user.](shell/mount-as-user.md)
+- [Sweep pings in a certain subnet](shell/ping-sweep.md)
+- [Run sudo commands over ssh](shell/sudo-over-ssh.md)
 - [Test if DHCP is working](shell/test-dhcp.md)
+- [Run sudo commands without passwords](shell/visudo.md)
 
-### Terminal
+### [terminal](#terminal)
 - [Terminal Colors](terminal/terminal-colors.md)
 
-### Tmux
-- [SSH agent forwarding with tmux](tmux/ssh-agent-forwarding-tmux.md)
+### [termux](#termux)
+- [Send SMS with termux](termux/send_sms.md)
 
-### Vim
-- [Vim Cheatsheet](vim/vim-cheatsheet.md)
+### [tmux](#tmux)
+- [** With X11 ** support](tmux/ssh-agent-forwarding-tmux.md)
+
+### [vim](#vim)
 - [Debug option settings](vim/debug-option-settings.md)
-- [Format JSON](vim/format-json.md)
+- [Format JSON in Vim](vim/format-json.md)
+- [](vim/vim-cheatsheet.md)
 
-### Web
-- [Check TXT records](web/check_txt_record.md)
+### [web](#web)
+- [To check TXT records we can use `dig`.](web/check_txt_record.md)
 
-### Windows
-- [Set keyboard repeat rate](windows/keyboard-repeat-rate.md)
+### [windows](#windows)
+- [Set faster keyboard repeat rate on windows 10](windows/keyboard-repeat-rate.md)
+
+
