@@ -1,4 +1,4 @@
-# Git
+# Git cheatsheet
 
 ## Setup
     git config --global user.email "you@example.com"

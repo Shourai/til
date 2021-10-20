@@ -1,4 +1,4 @@
-# Set defaults for extensions
+# Set defaults for extensions using xdg-mime
 
 ### browser
 Check what program is being used as default

@@ -1,4 +1,6 @@
-# make tab cycle through commands after listing
+# Better Bash tab completion
+
+## Make tab cycle through commands after listing
 
 ```
 bind '"\t":menu-complete'

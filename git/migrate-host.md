@@ -1,6 +1,6 @@
-https://medium.com/collaborne-engineering/how-to-migrate-a-private-repository-from-bitbucket-to-github-6cddedd5d73
-
 # Migrate git repo from one host to another
+
+https://medium.com/collaborne-engineering/how-to-migrate-a-private-repository-from-bitbucket-to-github-6cddedd5d73
 
 Step 1: Create Github repository
 First, create a new private repository on Github.com. It’s important to keep the repository empty, e.g. don’t check option Initialize this repository with a README when creating the repository.

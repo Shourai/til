@@ -1,4 +1,4 @@
-# Create a simple fileserver Caddy file
+# Create a simple fileserver Caddy file with directory index
 
 In this situation we want to show the main 'site' on port 80.
 We also want to have two directory indices, on at `site.tld/log/` and the other at `site.tld/config/`.

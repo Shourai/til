@@ -1,4 +1,4 @@
-# Neomutt
+# Neomutt cheatsheet
 
 ## General
 

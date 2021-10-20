@@ -1,4 +1,4 @@
-## Firewall rules (UFW)
+# Get UFW working with Docker
 
 To allow docker to work correctly with ufw see: https://github.com/chaifeng/ufw-docker
 

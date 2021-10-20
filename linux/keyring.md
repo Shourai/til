@@ -1,6 +1,6 @@
-* Setup gnome keyring
+# Setup gnome keyring
 
-** On Arch
+## On Arch
 https://wiki.archlinux.org/title/GNOME/Keyring
 
 - Install `gnome-keyring` and `seahorse`.

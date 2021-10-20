@@ -1,4 +1,4 @@
-Create and populate an array of directories in bash
+# Create and populate an array of directories in bash
 
 ```
 #!/bin/bash

@@ -1,4 +1,4 @@
-# GPG sign old commits
+# Use GPG to sign old commits
 
 To rebase everything in the development branch and sign them.
 ```

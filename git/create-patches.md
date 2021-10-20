@@ -1,4 +1,4 @@
-# Creating patches with git
+# Creating patches
 
 ```
 git format-patch -x

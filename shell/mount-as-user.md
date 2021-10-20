@@ -1,4 +1,4 @@
-# Mount an external harddrive as local user.
+# Mount an external harddrive as local user
 
 An example of mounting `sdb1` as user with id 1000:
 

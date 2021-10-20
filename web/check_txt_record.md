@@ -1,3 +1,5 @@
+# Check TXT records
+
 To check TXT records we can use `dig`.
 
 ```
