@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_33 TILs and counting..._
+_35 TILs and counting..._
 
 ---
 
@@ -40,7 +40,9 @@ _33 TILs and counting..._
 - [Creating patches](git/create-patches.md)
 - [Git cheatsheet](git/git-cheatsheet.md)
 - [Use GPG to sign old commits](git/gpg-sign-old-commits.md)
+- [Merge two git repositories and keep history](git/merge-two-repos.md)
 - [Migrate git repo from one host to another](git/migrate-host.md)
+- [How to split a subdirectory to a new git repo while keeping history](git/split-git-repo.md)
 
 ### [gpg](#gpg)
 - [GPG agent forwarding over SSH](gpg/gpg-agent-forwarding.md)
