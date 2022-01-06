@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_35 TILs and counting..._
+_36 TILs and counting..._
 
 ---
 
@@ -14,6 +14,7 @@ _35 TILs and counting..._
 - [docker](#docker)
 - [git](#git)
 - [gpg](#gpg)
+- [kubernetes](#kubernetes)
 - [letsencrypt](#letsencrypt)
 - [linux](#linux)
 - [neomutt](#neomutt)
@@ -47,6 +48,9 @@ _35 TILs and counting..._
 ### [gpg](#gpg)
 - [GPG agent forwarding over SSH](gpg/gpg-agent-forwarding.md)
 - [A Cheatsheet for common gpg commands](gpg/gpg-cheatsheet.md)
+
+### [kubernetes](#kubernetes)
+- [Set up K3S cluster](kubernetes/k3s.md)
 
 ### [letsencrypt](#letsencrypt)
 - [Letsencrypt DNS acme challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
