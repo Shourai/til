@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_36 TILs and counting..._
+_37 TILs and counting..._
 
 ---
 
@@ -18,6 +18,7 @@ _36 TILs and counting..._
 - [letsencrypt](#letsencrypt)
 - [linux](#linux)
 - [neomutt](#neomutt)
+- [pihole](#pihole)
 - [python](#python)
 - [shell](#shell)
 - [terminal](#terminal)
@@ -62,6 +63,9 @@ _36 TILs and counting..._
 
 ### [neomutt](#neomutt)
 - [Neomutt cheatsheet](neomutt/neomutt-cheatsheet.md)
+
+### [pihole](#pihole)
+- [https://github.com/geerlingguy/internet-monitoring/issues/12](pihole/dns.md)
 
 ### [python](#python)
 - [Using virtual environment in Jupyter Notebook](python/virtual-environment-in-jupyter-notebook.md)
