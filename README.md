@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_37 TILs and counting..._
+_38 TILs and counting..._
 
 ---
 
@@ -34,6 +34,7 @@ _37 TILs and counting..._
 ### [docker](#docker)
 - [Update existing images with docker-compose](docker/docker-compose-update-images.md)
 - [Get UFW working with Docker](docker/docker-ufw.md)
+- [Sharing an SSH Agent between a host machine and a Docker container](docker/forward-ssh-agent.md)
 - [Setting up a nginx directory listing with docker compose](docker/nginx.md)
 
 ### [git](#git)
