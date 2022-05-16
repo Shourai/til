@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_38 TILs and counting..._
+_39 TILs and counting..._
 
 ---
 
@@ -18,6 +18,7 @@ _38 TILs and counting..._
 - [letsencrypt](#letsencrypt)
 - [linux](#linux)
 - [neomutt](#neomutt)
+- [networking](#networking)
 - [pihole](#pihole)
 - [python](#python)
 - [shell](#shell)
@@ -64,6 +65,9 @@ _38 TILs and counting..._
 
 ### [neomutt](#neomutt)
 - [Neomutt cheatsheet](neomutt/neomutt-cheatsheet.md)
+
+### [networking](#networking)
+- [Avoid conflict between dnsmasq and systemd-resolved](networking/avoid-dnsmasq-conflict.md)
 
 ### [pihole](#pihole)
 - [https://github.com/geerlingguy/internet-monitoring/issues/12](pihole/dns.md)
