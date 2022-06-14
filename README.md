@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_39 TILs and counting..._
+_40 TILs and counting..._
 
 ---
 
@@ -61,6 +61,7 @@ _39 TILs and counting..._
 ### [linux](#linux)
 - [Using dig and host](linux/dig-and-host.md)
 - [Setup gnome keyring](linux/keyring.md)
+- [Convert multi-line ssh public key to one-line for .ssh/authorized_keys](linux/multiline-ssh-key.md)
 - [Set defaults for extensions using xdg-mime](linux/xdg-mime.md)
 
 ### [neomutt](#neomutt)
