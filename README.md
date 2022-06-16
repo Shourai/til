@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_40 TILs and counting..._
+_41 TILs and counting..._
 
 ---
 
@@ -97,6 +97,7 @@ _40 TILs and counting..._
 ### [vim](#vim)
 - [Debug option settings](vim/debug-option-settings.md)
 - [Format JSON in Vim](vim/format-json.md)
+- [Sort lines based on a column in Vim/Nvim](vim/sort-line-by-column.md)
 - [Vim Cheatsheet](vim/vim-cheatsheet.md)
 
 ### [web](#web)
