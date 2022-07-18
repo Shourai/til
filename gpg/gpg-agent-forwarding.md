@@ -23,7 +23,7 @@ Host remote
 ```
 
 It is important to note that to work properly GnuPG on the remote system still needs your public keys.
-So you have to make sure they are available on the remote system even if your secret keys are not. 
+So you have to make sure they are available on the remote system even if your secret keys are not.
 To copy the public key to remote we can use:
 
 ```
@@ -42,6 +42,20 @@ StreamLocalBindUnlink yes
 Personally I had to add the following to my local `gpg-agent.conf`:
 ```
 extra-socket /run/user/1000/gnupg/S.gpg-agent.extra
+```
+
+### Example
+
+```config
+Host development
+    HostName 192.168.1.1
+    User username
+    ForwardAgent yes
+    RemoteForward /run/user/1000/gnupg/S.gpg-agent /run/user/1000/gnupg/S.gpg-agent.extra
+    ForwardX11 yes
+    ForwardX11Trusted yes
+
+Match host * exec "gpg-connect-agent UPDATESTARTUPTTY /bye"
 ```
 
 ### References
