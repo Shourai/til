@@ -42,7 +42,7 @@ _42 TILs and counting..._
 ### [git](#git)
 - [Change the author name and email for multiple commits](git/change-author-and-email-of-commits.md)
 - [Clear Git History](git/clear-git-history.md)
-- [Creating patches](git/create-patches.md)
+- [Creating and applying patches](git/create-and-apply-patches.md)
 - [Git cheatsheet](git/git-cheatsheet.md)
 - [Use GPG to sign old commits](git/gpg-sign-old-commits.md)
 - [Merge two git repositories and keep history](git/merge-two-repos.md)
