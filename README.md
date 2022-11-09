@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_43 TILs and counting..._
+_42 TILs and counting..._
 
 ---
 
@@ -41,7 +41,6 @@ _43 TILs and counting..._
 
 ### [git](#git)
 - [Change the author name and email for multiple commits](git/change-author-and-email-of-commits.md)
-- [Changing author info](git/change-author-info.md)
 - [Clear Git History](git/clear-git-history.md)
 - [Creating patches](git/create-patches.md)
 - [Git cheatsheet](git/git-cheatsheet.md)
