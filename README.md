@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_43 TILs and counting..._
+_44 TILs and counting..._
 
 ---
 
@@ -61,6 +61,7 @@ _43 TILs and counting..._
 - [Letsencrypt DNS acme challenge on Namecheap](letsencrypt/DNS-ACME-Challenge.md)
 
 ### [linux](#linux)
+- [Create compressed encrypted archives with tar and gpg](linux/create-encrypted-archives.md)
 - [Using dig and host](linux/dig-and-host.md)
 - [Setup gnome keyring](linux/keyring.md)
 - [Convert multi-line ssh public key to one-line for .ssh/authorized_keys](linux/multiline-ssh-key.md)
