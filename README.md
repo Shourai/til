@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_42 TILs and counting..._
+_43 TILs and counting..._
 
 ---
 
@@ -21,6 +21,7 @@ _42 TILs and counting..._
 - [networking](#networking)
 - [pihole](#pihole)
 - [python](#python)
+- [selfhosting](#selfhosting)
 - [shell](#shell)
 - [terminal](#terminal)
 - [termux](#termux)
@@ -76,6 +77,9 @@ _42 TILs and counting..._
 
 ### [python](#python)
 - [Using virtual environment in Jupyter Notebook](python/virtual-environment-in-jupyter-notebook.md)
+
+### [selfhosting](#selfhosting)
+- [Setup Authelia to work with Nginx Proxy Manager](selfhosting/setup-authelia-to-work-with-nginx-proxy-manager.md)
 
 ### [shell](#shell)
 - [Better Bash tab completion](shell/better-bash-tab-completion.md)
