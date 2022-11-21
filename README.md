@@ -74,7 +74,7 @@ _44 TILs and counting..._
 - [Avoid conflict between dnsmasq and systemd-resolved](networking/avoid-dnsmasq-conflict.md)
 
 ### [pihole](#pihole)
-- [https://github.com/geerlingguy/internet-monitoring/issues/12](pihole/dns.md)
+- [Fix DNS issues of docker containers on the same host](pihole/dns.md)
 
 ### [python](#python)
 - [Using virtual environment in Jupyter Notebook](python/virtual-environment-in-jupyter-notebook.md)
