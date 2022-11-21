@@ -1,6 +1,6 @@
-https://github.com/geerlingguy/internet-monitoring/issues/12
-
 # Fix DNS issues of docker containers on the same host
+
+https://github.com/geerlingguy/internet-monitoring/issues/12
 
 Worth a try... note that /etc/resolv.conf is managed by resolvconf, so it's rewritten on reboot.
 So I edited the /etc/resolvconf.conf file and uncommented the line name_servers=127.0.0.1, and rebooted.
