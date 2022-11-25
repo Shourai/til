@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_45 TILs and counting..._
+_46 TILs and counting..._
 
 ---
 
@@ -23,6 +23,7 @@ _45 TILs and counting..._
 - [python](#python)
 - [selfhosting](#selfhosting)
 - [shell](#shell)
+- [ssh](#ssh)
 - [terminal](#terminal)
 - [termux](#termux)
 - [tmux](#tmux)
@@ -91,6 +92,9 @@ _45 TILs and counting..._
 - [Run sudo commands over ssh](shell/sudo-over-ssh.md)
 - [Test if DHCP is working](shell/test-dhcp.md)
 - [Run sudo commands without passwords](shell/visudo.md)
+
+### [ssh](#ssh)
+- [Ignore ssh config file](ssh/ignore-ssh-config-file.md)
 
 ### [terminal](#terminal)
 - [Terminal Colors](terminal/terminal-colors.md)
