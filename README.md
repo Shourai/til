@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_49 TILs and counting..._
+_50 TILs and counting..._
 
 ---
 
@@ -88,6 +88,7 @@ _49 TILs and counting..._
 - [Setup Authelia to work with Nginx Proxy Manager](selfhosting/setup-authelia-to-work-with-nginx-proxy-manager.md)
 
 ### [shell](#shell)
+- [Bash git prompt](shell/bash-git-prompt.md)
 - [Better Bash tab completion](shell/better-bash-tab-completion.md)
 - [Create and populate an array of directories in bash](shell/directory-array.md)
 - [Mount an external harddrive as local user](shell/mount-as-user.md)
