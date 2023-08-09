@@ -4,12 +4,13 @@
 Useful little things I have learned
 
 
-_51 TILs and counting..._
+_52 TILs and counting..._
 
 ---
 
 ### Categories
 
+- [ansible](#ansible)
 - [caddy](#caddy)
 - [docker](#docker)
 - [git](#git)
@@ -30,6 +31,9 @@ _51 TILs and counting..._
 - [vim](#vim)
 - [web](#web)
 - [windows](#windows)
+
+### [ansible](#ansible)
+- [Using ansible inventory in python](ansible/using-ansible-inventory-in-python.md)
 
 ### [caddy](#caddy)
 - [Create a simple fileserver Caddy file with directory index](caddy/file-server.md)
