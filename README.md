@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_50 TILs and counting..._
+_51 TILs and counting..._
 
 ---
 
@@ -64,6 +64,7 @@ _50 TILs and counting..._
 ### [linux](#linux)
 - [Disable authentication delay](linux/authentication-delay.md)
 - [Create compressed encrypted archives with tar and gpg](linux/create-encrypted-archives.md)
+- [Environmental Variables in cron](linux/cron-environmental-variables.md)
 - [Using dig and host](linux/dig-and-host.md)
 - [Setup gnome keyring](linux/keyring.md)
 - [How to Mount Windows Share on Linux using CIFS](linux/mount-cifs-windows-share-on-linux.md)
