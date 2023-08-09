@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_52 TILs and counting..._
+_53 TILs and counting..._
 
 ---
 
@@ -96,6 +96,7 @@ _52 TILs and counting..._
 - [Bash git prompt](shell/bash-git-prompt.md)
 - [Better Bash tab completion](shell/better-bash-tab-completion.md)
 - [Create and populate an array of directories in bash](shell/directory-array.md)
+- [How to Use xargs on Linux](shell/how-to-use-xargs.md)
 - [Mount an external harddrive as local user](shell/mount-as-user.md)
 - [Sweep pings in a certain subnet](shell/ping-sweep.md)
 - [Run sudo commands over ssh](shell/sudo-over-ssh.md)
