@@ -6,15 +6,15 @@ With the various methods for performing network automation, one of the challengi
 
 While there are systems out there, such as [NetBox](https://netbox.readthedocs.io/en/stable/), as a source of truth for inventory management, we don't always have the luxury of these tools. In this article I present a way to use Ansible inventory files directly in our Python scripts. While there are a few caveats (discussed below), this might be a solution that fits your use-case.
 
-Requirements and Caveats[Permalink](https://www.yaklin.ca/2021/08/05/ansible-inventory-in-python.html#requirements-and-caveats "Permalink")
--------------------------------------------------------------------------------------------------------------------------------------------
+Requirements and Caveats
+------------------------
 
 The examples in this article use Ansible version 2.11.1 and Python 3.8.10. We will be using the [Ansible Python API](https://docs.ansible.com/ansible/latest/dev_guide/developing_api.html) for reading our inventory file to identify hosts and their variables.
 
 This method works well if you are setting your group variables directly in your inventory file. So far I have not found a method that allows you to load your group_vars files in addition to your inventory file. Additionally, I have not found a method that will allow for loading Ansible Vault variables that are in these files. If I find a method to do this in the future I will be sure to provide an update! If you are aware of how to do this, I would love to hear from you!
 
-Inventory File[Permalink](https://www.yaklin.ca/2021/08/05/ansible-inventory-in-python.html#inventory-file "Permalink")
------------------------------------------------------------------------------------------------------------------------
+Inventory File
+--------------
 
 This article will be using an inventory file named hosts.yaml, as shown below:
 
@@ -45,8 +45,8 @@ all:
 
 We have two hosts (RouterA and SwitchA) and a three different groups (all, ios, nxos). Additionally, there is a variable named syslog_servers which applies two IP addresses (10.1.1.1 and 10.1.1.2) to all hosts, with that being overwritten for RouterA to two diffrent IP addresses (192.168.1.1 and 192.168.1.2).
 
-Using the Ansible Python API[Permalink](https://www.yaklin.ca/2021/08/05/ansible-inventory-in-python.html#using-the-ansible-python-api "Permalink")
----------------------------------------------------------------------------------------------------------------------------------------------------
+Using the Ansible Python API
+----------------------------
 
 To read the hosts.yaml file with Python in a convenient fashion we can use the [Ansible Python API](https://docs.ansible.com/ansible/latest/dev_guide/developing_api.html). While there are many methods for use within the API (such as for running Playbooks), this blog post is specifically focused on reading the inventory file to identify hosts, their IP addresses, groups, and variables so that we can leverage this information in a custome Python script you may have.
 
@@ -148,7 +148,7 @@ Finally, to iterate over a subset of hosts and obtain their variables, you can p
 
 ```
 
-TLDR[Permalink](https://www.yaklin.ca/2021/08/05/ansible-inventory-in-python.html#tldr "Permalink")
----------------------------------------------------------------------------------------------------
+TLDR
+----
 
 Using the Ansible Python API can be a helpful tool allowing you to use your Ansible inventory files in both Ansible playbooks and Python scripts (don't forget to read the Requirements and Caveats section above). It is quite easy to use and allows you to filter your inventory file on a subset of the hosts you may want to query with your Python scripts.
