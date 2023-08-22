@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_53 TILs and counting..._
+_54 TILs and counting..._
 
 ---
 
@@ -53,6 +53,7 @@ _53 TILs and counting..._
 - [Use GPG to sign old commits](git/gpg-sign-old-commits.md)
 - [Merge two git repositories and keep history](git/merge-two-repos.md)
 - [Migrate git repo from one host to another](git/migrate-host.md)
+- [Setup multiple git identities & git user informations](git/multiple-git-identities.md)
 - [How to split a subdirectory to a new git repo while keeping history](git/split-git-repo.md)
 
 ### [gpg](#gpg)
