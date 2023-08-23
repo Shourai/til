@@ -1,17 +1,20 @@
 # Disable authentication delay
 
-add `nodelay` to the the line containing `pam_unix.so` in
+add `nodelay` to the the line containing `pam_unix.so` and `pam_faillock.so` in
 ```
 /etc/pam.d/system-auth
 ```
 
-also add `nodelay` to
+e.g.
+
 ```
-/etc/security/faillock.conf
+auth       required                    pam_faillock.so      preauth nodelay
+
+
+auth       [success=1 default=bad]     pam_unix.so          try_first_pass nullok nodelay
 ```
 
 see also:
 ```
 man pam_unix
-man pam_faillock
 ```
