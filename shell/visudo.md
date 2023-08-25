@@ -40,6 +40,8 @@ username ALL=(ALL) NOPASSWD: /sbin/reboot
 Here the user in `group` can run all sudo commands _with_ password and run `reboot` without password.
 
 
-See also: \\
-https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file \\
+See also:
+
+https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file
+
 https://linuxize.com/post/how-to-run-sudo-command-without-password/
