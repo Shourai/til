@@ -21,6 +21,12 @@ username ALL=(ALL) NOPASSWD:ALL
 sudo EDITOR=vim visudo
 ```
 
+or add the following to /etc/sudoers
+
+```
+Defaults editor=/usr/bin/nvim
+```
+
 ## Note
 The visudo command will overwrite rules if it applies to the same user/group.
 For example if you have a line that allows users in the group `wheel` to run sudo commands
@@ -34,6 +40,6 @@ username ALL=(ALL) NOPASSWD: /sbin/reboot
 Here the user in `group` can run all sudo commands _with_ password and run `reboot` without password.
 
 
-See also:
-https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file
+See also: \\
+https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file \\
 https://linuxize.com/post/how-to-run-sudo-command-without-password/
