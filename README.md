@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_55 TILs and counting..._
+_57 TILs and counting..._
 
 ---
 
@@ -44,6 +44,8 @@ _55 TILs and counting..._
 - [Get UFW working with Docker](docker/docker-ufw.md)
 - [Sharing an SSH Agent between a host machine and a Docker container](docker/forward-ssh-agent.md)
 - [Setting up a nginx directory listing with docker compose](docker/nginx.md)
+- [Run docker container interactively with bash](docker/run-docker-container-interactively.md)
+- [Run a docker container using cronjob on the host](docker/run-docker-container-via-cronjob-on-host.md)
 
 ### [git](#git)
 - [Change the author name and email for multiple commits](git/change-author-and-email-of-commits.md)
