@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_57 TILs and counting..._
+_58 TILs and counting..._
 
 ---
 
@@ -53,6 +53,7 @@ _57 TILs and counting..._
 - [Creating and applying patches](git/create-and-apply-patches.md)
 - [Git cheatsheet](git/git-cheatsheet.md)
 - [Use GPG to sign old commits](git/gpg-sign-old-commits.md)
+- [How to merge multiple git repositories and keep commit history](git/merge-git-repos-and-keep-commit-history.md)
 - [Merge two git repositories and keep history](git/merge-two-repos.md)
 - [Migrate git repo from one host to another](git/migrate-host.md)
 - [Setup multiple git identities & git user informations](git/multiple-git-identities.md)
