@@ -6,9 +6,9 @@ Create a temporary branch and checkout:
 $ git checkout --orphan temp_branch
 ```
 
-|Option |	Description |
-|-------|-------------|
-|--orphan  |	Create a branch in a git init-like state |
+| Option   | Description                              |
+| -------- | ---------------------------------------- |
+| --orphan | Create a branch in a git init-like state |
 
 Add all files to the temporary branch and commit the changes:
 
@@ -35,4 +35,8 @@ Forcefully update the remote repository:
 $ git push -f origin master
 ```
 
-see also https://www.shellhacks.com/git-remove-all-commits-clear-git-history-local-remote/
+see also
+
+https://www.shellhacks.com/git-remove-all-commits-clear-git-history-local-remote/
+
+https://clearinsights.io/blog/how-to-remove-all-git-commit-history/
