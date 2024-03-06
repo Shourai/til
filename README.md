@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_59 TILs and counting..._
+_60 TILs and counting..._
 
 ---
 
@@ -46,6 +46,7 @@ _59 TILs and counting..._
 - [Setting up a nginx directory listing with docker compose](docker/nginx.md)
 - [Run docker container interactively with bash](docker/run-docker-container-interactively.md)
 - [Run a docker container using cronjob on the host](docker/run-docker-container-via-cronjob-on-host.md)
+- [Set docker log size](docker/set-docker-log-size.md)
 
 ### [git](#git)
 - [Change the author name and email for multiple commits](git/change-author-and-email-of-commits.md)
