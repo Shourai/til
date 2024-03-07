@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_60 TILs and counting..._
+_61 TILs and counting..._
 
 ---
 
@@ -22,6 +22,7 @@ _60 TILs and counting..._
 - [networking](#networking)
 - [pihole](#pihole)
 - [python](#python)
+- [raspberry-pi](#raspberry-pi)
 - [selfhosting](#selfhosting)
 - [shell](#shell)
 - [ssh](#ssh)
@@ -95,6 +96,9 @@ _60 TILs and counting..._
 
 ### [python](#python)
 - [Using virtual environment in Jupyter Notebook](python/virtual-environment-in-jupyter-notebook.md)
+
+### [raspberry-pi](#raspberry-pi)
+- [Set a static IP address with nmtui on Raspberry Pi OS 12 'Bookworm'](raspberry-pi/set_a_static_ip_address_with_nmtui_on_raspberry_pi.md)
 
 ### [selfhosting](#selfhosting)
 - [Setup Authelia to work with Nginx Proxy Manager](selfhosting/setup-authelia-to-work-with-nginx-proxy-manager.md)
