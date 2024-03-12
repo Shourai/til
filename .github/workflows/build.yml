@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         # necessary for github-action-til-autoformat-readme
         fetch-depth: 0
     - name: Autoformat README
-      uses: cflynn07/github-action-til-autoformat-readme@1.2.0
+      uses: cflynn07/github-action-til-autoformat-readme@1.2.4
       with:
         description: |
           Useful little things I have learned
