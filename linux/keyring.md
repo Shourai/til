@@ -1,7 +1,32 @@
 # Setup gnome keyring
 
-## On Arch
-https://wiki.archlinux.org/title/GNOME/Keyring
+## Wayland
+
+install the following packages
+
+```
+gnome-keyring
+libsecret
+seahorse
+```
+
+GNOME Keyring exposes an XDG Portal backend (for use with applications sandboxed through [flatpak](https://wiki.archlinux.org/title/Flatpak "Flatpak") for example).
+In order for it to work outside of GNOME, one must add their desktop environment to the `/usr/share/xdg-desktop-portal/portals/gnome-keyring.portal` configuration file by modifying the `UseIn` key.
+For instance, to add `Hyprland`:
+
+```
+/usr/share/xdg-desktop-portal/portals/gnome-keyring.portal
+
+[portal]
+DBusName=org.freedesktop.secrets
+Interfaces=org.freedesktop.impl.portal.Secret
+UseIn=gnome;Hyprland
+```
+
+See [XDG Desktop Portal#Backends](https://wiki.archlinux.org/title/XDG_Desktop_Portal#Backends "XDG Desktop Portal") for more information about XDG Desktop Portal backends.
+
+## On Arch for x11
+<https://wiki.archlinux.org/title/GNOME/Keyring>
 
 - Install `gnome-keyring` and `seahorse`.
 
@@ -25,4 +50,4 @@ export SSH_AUTH_SOCK
 ```
 
 source:
-https://unix.stackexchange.com/questions/265503/how-do-i-fix-no-such-secret-collection-at-path-for-gnome-keyring-and-arch-l
+<https://unix.stackexchange.com/questions/265503/how-do-i-fix-no-such-secret-collection-at-path-for-gnome-keyring-and-arch-l>
