@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_61 TILs and counting..._
+_62 TILs and counting..._
 
 ---
 
@@ -82,6 +82,7 @@ _61 TILs and counting..._
 - [Convert multi-line ssh public key to one-line for .ssh/authorized_keys](linux/multiline-ssh-key.md)
 - [https://linuxconfig.org/ubuntu-22-04-ntp-server](linux/ntp-server.md)
 - [Running Systemd Service as User Rather Than Root](linux/run-systemd-service-as-user-rather-than-root.md)
+- [Change systemd-boot timeout](linux/systemd-boot-timeout.md)
 - [Unlock user after too many failed sudo attempts](linux/unlock-after-too-many-sudo-attempts.md)
 - [Set defaults for extensions using xdg-mime](linux/xdg-mime.md)
 
