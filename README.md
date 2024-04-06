@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_64 TILs and counting..._
+_65 TILs and counting..._
 
 ---
 
@@ -89,6 +89,7 @@ _64 TILs and counting..._
 - [Running Systemd Service as User Rather Than Root](linux/run-systemd-service-as-user-rather-than-root.md)
 - [Change systemd-boot timeout](linux/systemd-boot-timeout.md)
 - [Unlock user after too many failed sudo attempts](linux/unlock-after-too-many-sudo-attempts.md)
+- [Allow commands to be run without password (visudo - NOPASSWD)](linux/visudo-nopasswd.md)
 - [Set defaults for extensions using xdg-mime](linux/xdg-mime.md)
 
 ### [neomutt](#neomutt)
