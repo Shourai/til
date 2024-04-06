@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_62 TILs and counting..._
+_64 TILs and counting..._
 
 ---
 
@@ -12,6 +12,7 @@ _62 TILs and counting..._
 
 - [ansible](#ansible)
 - [caddy](#caddy)
+- [calibre](#calibre)
 - [docker](#docker)
 - [git](#git)
 - [gpg](#gpg)
@@ -38,6 +39,9 @@ _62 TILs and counting..._
 
 ### [caddy](#caddy)
 - [Create a simple fileserver Caddy file with directory index](caddy/file-server.md)
+
+### [calibre](#calibre)
+- [Allow calibre to mount ereaders automatically using udisks](calibre/mount-ereader-udisks.md)
 
 ### [docker](#docker)
 - [Update existing images with docker-compose](docker/docker-compose-update-images.md)
@@ -78,6 +82,7 @@ _62 TILs and counting..._
 - [Using dig and host](linux/dig-and-host.md)
 - [Increase login attempts](linux/increase_login_attempts.md)
 - [Setup gnome keyring](linux/keyring.md)
+- [Modify LUKS iter-time on existing luks partition](linux/modify-luks-iter-time.md)
 - [How to Mount Windows Share on Linux using CIFS](linux/mount-cifs-windows-share-on-linux.md)
 - [Convert multi-line ssh public key to one-line for .ssh/authorized_keys](linux/multiline-ssh-key.md)
 - [https://linuxconfig.org/ubuntu-22-04-ntp-server](linux/ntp-server.md)
