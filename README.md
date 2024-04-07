@@ -85,7 +85,7 @@ _65 TILs and counting..._
 - [Modify LUKS iter-time on existing luks partition](linux/modify-luks-iter-time.md)
 - [How to Mount Windows Share on Linux using CIFS](linux/mount-cifs-windows-share-on-linux.md)
 - [Convert multi-line ssh public key to one-line for .ssh/authorized_keys](linux/multiline-ssh-key.md)
-- [https://linuxconfig.org/ubuntu-22-04-ntp-server](linux/ntp-server.md)
+- [Set up device as NTP server](linux/ntp-server.md)
 - [Running Systemd Service as User Rather Than Root](linux/run-systemd-service-as-user-rather-than-root.md)
 - [Change systemd-boot timeout](linux/systemd-boot-timeout.md)
 - [Unlock user after too many failed sudo attempts](linux/unlock-after-too-many-sudo-attempts.md)
