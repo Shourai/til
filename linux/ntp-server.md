@@ -1,12 +1,14 @@
-https://linuxconfig.org/ubuntu-22-04-ntp-server
+# Set up device as NTP server
+
+<https://linuxconfig.org/ubuntu-22-04-ntp-server>
 
 ## Install NTP server
 
 To begin, we need to install NTP server. You can do so by [opening a command line terminal](https://linuxconfig.org/how-to-open-a-terminal-on-ubuntu-xenial-xerus-16-04-linux) and entering the following command:
 
 ```
-$ sudo apt update
-$ sudo apt install ntp
+sudo apt update
+sudo apt install ntp
 ```
 
 ## Configure NTP server
@@ -14,7 +16,7 @@ $ sudo apt install ntp
 The NTP server comes pre-configured with some server pools already, which you can see inside the `/etc/ntp.conf` file.
 
 ```
-$ cat /etc/ntp.conf
+cat /etc/ntp.conf
 ```
 
 [![The default server pools inside our NTP config file](https://linuxconfig.org/wp-content/uploads/2022/04/01-ubuntu-22-04-ntp-server.png)](https://linuxconfig.org/wp-content/uploads/2022/04/01-ubuntu-22-04-ntp-server.png)
@@ -30,7 +32,7 @@ Find your closest server pools from the NTP Pool Project website
 Once you find the most relevant zone, all you need to do is add the lines in your config file by using nano or your preferred text editor:
 
 ```
-$ sudo nano /etc/ntp.conf
+sudo nano /etc/ntp.conf
 ```
 
 [![Enter the servers into the NTP config file](https://linuxconfig.org/wp-content/uploads/2022/04/03-ubuntu-22-04-ntp-server.png)](https://linuxconfig.org/wp-content/uploads/2022/04/03-ubuntu-22-04-ntp-server.png)
@@ -46,7 +48,7 @@ $ sudo systemctl restart ntp
 Check on the status of the NTP service at any time with this command:
 
 ```
-$ sudo systemctl status ntp
+sudo systemctl status ntp
 ```
 
 [![The status of NTP server daemon](https://linuxconfig.org/wp-content/uploads/2022/04/04-ubuntu-22-04-ntp-server.png)](https://linuxconfig.org/wp-content/uploads/2022/04/04-ubuntu-22-04-ntp-server.png)
@@ -65,12 +67,12 @@ Rules updated (v6)
 
 Now that we have an NTP server up and running, we will show how client systems can connect to it for time synchronization. Just follow the steps below on your client systems:
 
-1.  First, we need to install the ntpdate package. We can use this to verify connectivity between the client and the NTP time server we created.
+1. First, we need to install the ntpdate package. We can use this to verify connectivity between the client and the NTP time server we created.
 
     $ sudo apt update
     $ sudo apt install ntpdate
 
-2.  Next, let's attempt to mantually sync our system time with the NTP server. Type the following command, substituting your NTP server's IP address or hostname where appropriate:
+2. Next, let's attempt to mantually sync our system time with the NTP server. Type the following command, substituting your NTP server's IP address or hostname where appropriate:
 
     $ sudo ntpdate 192.168.100.4
 
@@ -78,7 +80,7 @@ Now that we have an NTP server up and running, we will show how client systems c
 
     Connection to NTP server is successful
 
-3.  That seems to be working as we'd expect. Next, be sure to disable Ubuntu's default `timesyncd` service, as this will conflict with our attempts to synchronize with the NTP server.
+3. That seems to be working as we'd expect. Next, be sure to disable Ubuntu's default `timesyncd` service, as this will conflict with our attempts to synchronize with the NTP server.
 
     ***
 
@@ -86,19 +88,19 @@ Now that we have an NTP server up and running, we will show how client systems c
 
     $ sudo timedatectl set-ntp off
 
-4.  Now, we need to install the NTP daemon on our client system so we can configure it to pull the time from our NTP server that we set up earlier.
+4. Now, we need to install the NTP daemon on our client system so we can configure it to pull the time from our NTP server that we set up earlier.
 
     $ sudo apt install ntp
 
-5.  We only need to add a single line to our `ntp.conf` file, and we can do that very easily with a single command. Just make sure to replace the IP address below with either the hostname or the IP address of your NTP server.
+5. We only need to add a single line to our `ntp.conf` file, and we can do that very easily with a single command. Just make sure to replace the IP address below with either the hostname or the IP address of your NTP server.
 
     $ sudo bash -c "echo server 192.168.100.4 prefer iburst >> /etc/ntp.conf"
 
-6.  Then, restart the NTP daemon:
+6. Then, restart the NTP daemon:
 
     $ sudo systemctl restart ntp
 
-7.  Lastly, use the `ntpq` command to list the NTP time synchronization queue:
+7. Lastly, use the `ntpq` command to list the NTP time synchronization queue:
 
     $ ntpq -p
 
