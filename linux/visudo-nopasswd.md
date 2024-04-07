@@ -1,5 +1,6 @@
 # Allow commands to be run without password (visudo - NOPASSWD)
 
+<https://www.baeldung.com/linux/edit-etc-sudoers-using-script>
 <https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password/>
 
 According to man `sudoers`:
@@ -9,9 +10,21 @@ According to man `sudoers`:
 To allow certain commands to be run without password this following can be put in either the `sudoers` file
 or in a separate file in `/etc/sudoers.d/00_<username>`
 
+The `nopasswd` commands can be put in separate lines or separated by a comma.
+The last line is needed to allow other commands to run as sudo with password.
+
 ```
 <username> ALL=NOPASSWD: /usr/bin/pacman, /usr/bin/reboot, ...
+<username> ALL=NOPASSWD: /usr/bin/mount
+<username> ALL=NOPASSWD: /usr/bin/umount
+<username> ALL=(ALL:ALL) ALL
 ```
+
+> SUDOERS FILE FORMAT
+> ...
+>
+> When  multiple  entries  match  for a user, they are applied in order.
+> Where there are multiple matches, the last match is used (which is not necessarily the most specific match).
 
 ## askubuntu post
 
