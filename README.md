@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_65 TILs and counting..._
+_67 TILs and counting..._
 
 ---
 
@@ -102,6 +102,8 @@ _65 TILs and counting..._
 - [Fix DNS issues of docker containers on the same host](pihole/dns.md)
 
 ### [python](#python)
+- [Using a list of dictionaries as variables to render a jinja2 template](python/list-of-dictionaries-as-jinja2-variables.md)
+- [How to open an jinja2 template from a file](python/read-jinja2-template-from-file.md)
 - [Using virtual environment in Jupyter Notebook](python/virtual-environment-in-jupyter-notebook.md)
 
 ### [raspberry-pi](#raspberry-pi)
