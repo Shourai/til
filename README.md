@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_67 TILs and counting..._
+_68 TILs and counting..._
 
 ---
 
@@ -63,6 +63,7 @@ _67 TILs and counting..._
 - [Merge two git repositories and keep history](git/merge-two-repos.md)
 - [Migrate git repo from one host to another](git/migrate-host.md)
 - [Setup multiple git identities & git user informations](git/multiple-git-identities.md)
+- [Removing Sensitive Data from Git History](git/removing-sensitive-data-from-git-history.md)
 - [How to split a subdirectory to a new git repo while keeping history](git/split-git-repo.md)
 
 ### [gpg](#gpg)
