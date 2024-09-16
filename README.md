@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_68 TILs and counting..._
+_69 TILs and counting..._
 
 ---
 
@@ -31,6 +31,7 @@ _68 TILs and counting..._
 - [termux](#termux)
 - [tmux](#tmux)
 - [vim](#vim)
+- [vpn](#vpn)
 - [web](#web)
 - [windows](#windows)
 
@@ -141,6 +142,9 @@ _68 TILs and counting..._
 - [Format JSON in Vim](vim/format-json.md)
 - [Sort lines based on a column in Vim/Nvim](vim/sort-line-by-column.md)
 - [Vim Cheatsheet](vim/vim-cheatsheet.md)
+
+### [vpn](#vpn)
+- [Wireguard](vpn/wireguard.md)
 
 ### [web](#web)
 - [Check TXT records](web/check_txt_record.md)
