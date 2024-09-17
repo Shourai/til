@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_69 TILs and counting..._
+_70 TILs and counting..._
 
 ---
 
@@ -24,6 +24,7 @@ _69 TILs and counting..._
 - [pihole](#pihole)
 - [python](#python)
 - [raspberry-pi](#raspberry-pi)
+- [reverse-proxy](#reverse-proxy)
 - [selfhosting](#selfhosting)
 - [shell](#shell)
 - [ssh](#ssh)
@@ -110,6 +111,9 @@ _69 TILs and counting..._
 
 ### [raspberry-pi](#raspberry-pi)
 - [Set a static IP address with nmtui on Raspberry Pi OS 12 'Bookworm'](raspberry-pi/set_a_static_ip_address_with_nmtui_on_raspberry_pi.md)
+
+### [reverse-proxy](#reverse-proxy)
+- [Practical Configuration of Traefik as a Reverse Proxy For Docker](reverse-proxy/traefik.md)
 
 ### [selfhosting](#selfhosting)
 - [Setup Authelia to work with Nginx Proxy Manager](selfhosting/setup-authelia-to-work-with-nginx-proxy-manager.md)
