@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_70 TILs and counting..._
+_71 TILs and counting..._
 
 ---
 
@@ -142,6 +142,7 @@ _70 TILs and counting..._
 - [SSH agent forwarding with tmux](tmux/ssh-agent-forwarding-tmux.md)
 
 ### [vim](#vim)
+- [Enable system clipboard over ssh](vim/clipboard_over_ssh.md)
 - [Debug option settings](vim/debug-option-settings.md)
 - [Format JSON in Vim](vim/format-json.md)
 - [Sort lines based on a column in Vim/Nvim](vim/sort-line-by-column.md)
