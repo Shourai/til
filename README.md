@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_71 TILs and counting..._
+_72 TILs and counting..._
 
 ---
 
@@ -131,6 +131,7 @@ _71 TILs and counting..._
 
 ### [ssh](#ssh)
 - [Ignore ssh config file](ssh/ignore-ssh-config-file.md)
+- [Prevent hostkey from being saved](ssh/prevent-hostkey-being-save.md)
 
 ### [terminal](#terminal)
 - [Terminal Colors](terminal/terminal-colors.md)
