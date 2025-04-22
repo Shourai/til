@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_72 TILs and counting..._
+_73 TILs and counting..._
 
 ---
 
@@ -50,6 +50,7 @@ _72 TILs and counting..._
 - [Add DNS server to Docker](docker/docker-dns.md)
 - [Get UFW working with Docker](docker/docker-ufw.md)
 - [Sharing an SSH Agent between a host machine and a Docker container](docker/forward-ssh-agent.md)
+- [How to login using root user into docker container](docker/login_docker_container_as_root.md)
 - [Setting up a nginx directory listing with docker compose](docker/nginx.md)
 - [Run docker container interactively with bash](docker/run-docker-container-interactively.md)
 - [Run a docker container using cronjob on the host](docker/run-docker-container-via-cronjob-on-host.md)
