@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_73 TILs and counting..._
+_74 TILs and counting..._
 
 ---
 
@@ -141,6 +141,7 @@ _73 TILs and counting..._
 - [Send SMS with termux](termux/send_sms.md)
 
 ### [tmux](#tmux)
+- [Clipboard conditional to OS](tmux/clipboard.md)
 - [SSH agent forwarding with tmux](tmux/ssh-agent-forwarding-tmux.md)
 
 ### [vim](#vim)
