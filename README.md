@@ -4,7 +4,7 @@
 Useful little things I have learned
 
 
-_74 TILs and counting..._
+_75 TILs and counting..._
 
 ---
 
@@ -108,6 +108,7 @@ _74 TILs and counting..._
 ### [python](#python)
 - [Using a list of dictionaries as variables to render a jinja2 template](python/list-of-dictionaries-as-jinja2-variables.md)
 - [How to open an jinja2 template from a file](python/read-jinja2-template-from-file.md)
+- [Upgrade all packages with pip](python/upgrade-all-packages-with-pip.md)
 - [Using virtual environment in Jupyter Notebook](python/virtual-environment-in-jupyter-notebook.md)
 
 ### [raspberry-pi](#raspberry-pi)
